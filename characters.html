@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Tajawal:300,400,500" rel="stylesheet">
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/script.js"></script>
+		<title>Characters</title>
+	</head>
+	<body>
+		<header>
+			<a href="index.html" id="logoSpan">
+				<img src="Images/logo.jpg" id="logo" alt="Home">
+			</a>
+			<nav id="mainNav">
+				<div class="dropdown">	
+					<a href="story1.html">Story</a>
+					<nav class="dropdownContent">
+						<a href="story1.html">Page 1</a>
+						<a href="story2.html">Page 2</a>
+						<a href="story3.html">Page 3</a>
+						<a href="story4.html">Page 4</a>
+						<a href="story5.html">Page 5</a>
+						<a href="story6.html">Page 6</a>
+						<a href="story7.html">Page 7</a>
+						<a href="story8.html">Page 8</a>
+						<a href="story9.html">Page 9</a>
+						<a href="story10.html">Page 10</a>
+						<a href="story11.html">The End</a>
+					</nav>
+				</div>
+				<div class="dropdown" id="characterDropdown">
+					<a href="characters.html" id="charactersNav">Characters</a>
+					<nav class="dropdownContent">
+						<a href="characterProfilePageStatic.html" class='characterProfileLink'>Characters</a>
+						<a href="characters.html#launchCharacterQuiz">Character Quiz</a>
+					</nav>
+				</div>
+				<div class="dropdown">
+					<a href="about.html">About</a>
+				</div>
+			</nav>
+		</header>
+		
+		<main>
+			<nav id="characters" class="characterButtons">
+				<a href="characterProfilePageStatic.html" class="characterProfileLink"><span><img src="images/story3.jpg" alt="Characters"></span>Characters</a>
+				<a href="#" class="characterQuizLink"><span><img src="images/CharacterQuiz.jpg" alt="Character Quiz"></span>Character Quiz</a>
+			</nav>
+			
+			<section class="characterQuiz hidden" id="characterQuiz1">
+				<a href="#" class="closeX">X</a>
+				<h1>Question One</h1>
+				<div class="question">
+					<form id="question1">
+						<h4>What are the names of the three good little bunnies?</h4>
+						<label for="question1-1">
+							<input type="radio" id="question1-1" name="question1" value="incorrect">Flopsy, Hopsy and Cotton-Tail
+							<span>
+								<img src="images/cancel.svg" alt="Incorrect">
+							</span>
+							<br>
+						</label>
+						<label for="question1-2">
+							<input type="radio" id="question1-2" name="question1" value="correct">Flopsy, Mopsy and Cotton-Tail
+							<span>
+								<img src="images/checked.svg" alt="Correct">
+							</span>
+							<br>
+						</label>
+						<label for="question1-3">
+							<input type="radio" id="question1-3" name="question1" value="incorrect">Floppy, Mopsy and Cotton-Tail
+							<span>
+								<img src="images/cancel.svg" alt="Incorrect">
+							</span>
+							<br>
+						</label>
+					</form>
+					<span>
+						<img src="images/three-bunnies.jpg" alt="The three bunnies">
+					</span>
+				</div>
+				<nav>
+					<button class="btn-green submitBtn">Submit</button>
+					<h5 class="correct">Correct</h5>
+					<h5 class="incorrect">Incorrect</h5>
+					<button class="btn-blue btnNext">Next</button>
+				</nav>
+			</section>
+			
+			<section class="characterQuiz hidden" id="characterQuiz2">
+				<a href="#" class="closeX">X</a>
+				<h1>Question Two</h1>
+				<div class="question">
+					<form id="question2">
+						<h4>What did Peter Rabbit not eat?</h4>
+						<label for="question2-1">
+							<input type="radio" id="question2-1" name="question2" value="incorrect">French Beans
+							<span>
+								<img src="images/cancel.svg" alt="Incorrect">
+							</span>
+							<br>
+						</label>
+						<label for="question2-2">
+							<input type="radio" id="question2-2" name="question2" value="incorrect">Radishes
+							<span>
+								<img src="images/cancel.svg" alt="Incorrect">
+							</span>
+							<br>
+						</label>
+						<label for="question2-3">
+							<input type="radio" id="question2-3" name="question2" value="correct">Parsley
+							<span>
+								<img src="images/checked.svg" alt="Correct">
+							</span>
+							<br>
+						</label>
+					</form>
+					<span>
+						<img src="images/peterEatingRadishes.jpg" alt="Peter Eating Vegetables">
+					</span>
+				</div>
+				<nav>
+					<button class="btn-green submitBtn">Submit</button>
+					<h5 class="correct">Correct</h5>
+					<h5 class="incorrect">Incorrect</h5>
+					<button class="btn-blue btnNext">Next</button>
+				</nav>
+			</section>
+			
+			<section class="characterQuiz hidden" id="characterQuiz3">
+				<a href="#" class="closeX">X</a>
+				<h1>Question Three</h1>
+				<div class="question">
+					<form id="question3">
+						<h4>What happened to Peter's little blue jacket?</h4>
+						<label for="question3-1">
+							<input type="radio" id="question3-1" name="question3" value="incorrect">It slipped off as he squeezed under the gate
+							<span>
+								<img src="images/cancel.svg" alt="Incorrect">
+							</span>
+							<br>
+						</label>
+						<label for="question3-2">
+							<input type="radio" id="question3-2" name="question3" value="incorrect">He lost it in the tool shed
+							<span>
+								<img src="images/cancel.svg" alt="Inorrect">
+							</span>
+							<br>
+						</label>
+						<label for="question3-3">
+							<input type="radio" id="question3-3" name="question3" value="correct">It got caught on a gooseberry net
+							<span>
+								<img src="images/checked.svg" alt="Correct">
+							</span>
+							<br>
+						</label>
+					</form>
+					<span>
+						<img src="images/little-blue-jacket.jpg" alt="The three bunnies">
+					</span>
+				</div>
+				<nav>
+					<button class="btn-green submitBtn">Submit</button>
+					<h5 class="correct">Correct</h5>
+					<h5 class="incorrect">Incorrect</h5>
+					<button class="btn-blue btnNext">Next</button>
+				</nav>
+			</section>
+			
+			<section class="characterQuiz hidden" id="characterQuiz4">
+				<a href="#" class="closeX">X</a>
+				<h1>Your Score:</h1>
+				<h2></h2>
+				<p></p>
+				<nav id="quizEnd">
+					<button class="btn-green" id="playAgain">Play Again</button>
+					<button class="btn-blue" id="quizClose">Close</button>
+				</nav>
+			</section>
+		</main>
+		
+		<footer>
+			<div id="footer">
+				<p>Connor Wiegmink 2018</p>
+				<p><a href="about.html">About & Acknowledgments</a></p>
+			</div>
+		</footer>
+	</body>
+</html>
